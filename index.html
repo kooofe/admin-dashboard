@@ -4,26 +4,59 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="styles/style.css">
     <script src="scripts/index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
     <title>Admin Dashboard</title>
 </head>
 <body>
 <div class="root">
     <div class="sidebar">
         <div class="dashboard-logo">
+            <img class="dash-logo" src="static/icons/view-dashboard.svg" alt="dashboard icon">
             <div>Dashboard</div>
         </div>
         <div class="nav-links">
-            <div>Home</div>
-            <div>Profile</div>
-            <div>Messages</div>
-            <div>History</div>
-            <div>Tasks</div>
-            <div>Communities</div>
+            <div class="nav-item">
+                <img class="navbar-icon" src="static/icons/home.svg" alt="">
+                <div class="nav-text">Home</div>
+            </div>
+            <div class="nav-item">
+                <img class="navbar-icon" src="static/icons/card-account-details-outline.svg" alt="">
+                <div class="nav-text">Profile</div>
+            </div>
+            <div class="nav-item">
+                <img class="navbar-icon" src="static/icons/message-reply.svg" alt="">
+                <div class="nav-text">Messages</div>
+            </div>
+            <div class="nav-item">
+                <img class="navbar-icon" src="static/icons/clock-time-three.svg" alt="">
+                <div class="nav-text">History</div>
+            </div>
+            <div class="nav-item">
+                <img class="navbar-icon" src="static/icons/text-box-multiple-outline.svg" alt="">
+                <div class="nav-text">Tasks</div>
+            </div>
+            <div class="nav-item">
+                <img class="navbar-icon" src="static/icons/account-group.svg" alt="">
+                <div class="nav-text">Communities</div>
+            </div>
         </div>
+
         <div class="settings+manuals">
-            <div>Settings</div>
-            <div>Support</div>
-            <div>Privacy</div>
+            <div class="nav-item">
+                <img class="navbar-icon" src="static/icons/cog.svg" alt="">
+                <div class="nav-text">Settings</div>
+            </div>
+            <div class="nav-item">
+                <img class="navbar-icon" src="static/icons/help-box.svg" alt="">
+                <div class="nav-text">Support</div>
+            </div>
+            <div class="nav-item">
+                <img class="navbar-icon" src="static/icons/shield-check.svg" alt="">
+                <div class="nav-text">Privacy</div>
+            </div>
         </div>
     </div>
     <div class="header">
@@ -46,7 +79,81 @@
         </div>
     </div>
     <div class="main-container">
-
+        <div class="your-projects">
+            <div class="project">
+                <p class="project-title">Cool Project</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Mauris sed hendrerit lectus. Maecenas odio nunc, interdum sit amet porta sit amet, <br>
+                    cursus sit amet quam. </p>
+                <div class="project-actions">
+                    <div class="project-action">star</div>
+                    <div class="project-action">read</div>
+                    <div class="project-action">merge</div>
+                </div>
+            </div>
+            <div class="project">
+                <p class="project-title">Cool Project</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Mauris sed hendrerit lectus. Maecenas odio nunc, interdum sit amet porta sit amet, <br>
+                    cursus sit amet quam. </p>
+                <div class="project-actions">
+                    <div class="project-action">star</div>
+                    <div class="project-action">read</div>
+                    <div class="project-action">merge</div>
+                </div>
+            </div>
+            <div class="project">
+                <p class="project-title">Cool Project</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Mauris sed hendrerit lectus. Maecenas odio nunc, interdum sit amet porta sit amet, <br>
+                    cursus sit amet quam. </p>
+                <div class="project-actions">
+                    <div class="project-action">star</div>
+                    <div class="project-action">read</div>
+                    <div class="project-action">merge</div>
+                </div>
+            </div>
+            <div class="project">
+                <p class="project-title">Cool Project</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Mauris sed hendrerit lectus. Maecenas odio nunc, interdum sit amet porta sit amet, <br>
+                    cursus sit amet quam. </p>
+                <div class="project-actions">
+                    <div class="project-action">star</div>
+                    <div class="project-action">read</div>
+                    <div class="project-action">merge</div>
+                </div>
+            </div>
+            <div class="project">
+                <p class="project-title">Cool Project</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Mauris sed hendrerit lectus. Maecenas odio nunc, interdum sit amet porta sit amet, <br>
+                    cursus sit amet quam. </p>
+                <div class="project-actions">
+                    <div class="project-action">star</div>
+                    <div class="project-action">read</div>
+                    <div class="project-action">merge</div>
+                </div>
+            </div>
+            <div class="project">
+                <p class="project-title">Cool Project</p>
+                <p class="project-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
+                    Mauris sed hendrerit lectus. Maecenas odio nunc, interdum sit amet porta sit amet, <br>
+                    cursus sit amet quam. </p>
+                <div class="project-actions">
+                    <div class="project-action">star</div>
+                    <div class="project-action">read</div>
+                    <div class="project-action">merge</div>
+                </div>
+            </div>
+        </div>
+        <div class="announce+trends">
+            <div class="announcements">
+                <p>site maintenance</p>
+                <p>community share day</p>
+                <p>Updated privacy policy</p>
+            </div>
+        </div>
     </div>
 </div>
 </body>
