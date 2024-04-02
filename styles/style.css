@@ -17,7 +17,7 @@ a, a:visited {
 }
 
 .sidebar {
-    background-color: cornflowerblue;
+    background-color: #1992d4;
     color: white;
 
     font-size: 1.3rem;
@@ -136,8 +136,8 @@ a, a:visited {
 
 .profile-picture {
     object-fit: cover;
-    width: 5.2rem;
-    height: 5.2rem;
+    width: 4.2rem;
+    height: 4.2rem;
     border-radius: 50%;
 }
 
@@ -163,7 +163,7 @@ h1 {
 .add-project > div > button {
     padding: 12px 30px 12px;
     border-radius: 25px;
-    background-color: cornflowerblue;
+    background-color: #1992d4;
     border: none;
     color: white;
     font-size: 1rem;
@@ -177,7 +177,7 @@ h1 {
 }
 
 .main-container {
-    background-color: grey;
+    background-color: #e2e8f0;
     display: grid;
 
     grid-row-start: 2;
@@ -189,27 +189,70 @@ h1 {
     grid-template-columns: repeat(4, 25%);
 }
 
-.your-projects {
-    background-color: green;
+.projects-logo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-left: 25px;
+    margin-bottom: -30px;
+}
 
+.your-projects {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 250px;
+    grid-auto-rows: 250px;
+}
+
+.projects-container {
     display: grid;
     grid-row-start: 1;
     grid-row-end: 4;
     grid-column-start: 1;
     grid-column-end: 4;
 
-    grid-template-columns: 50% 50%;
-    grid-template-rows: 300px;
-    grid-auto-rows: 300px;
+
+}
+
+
+.project-container {
+    background-color: white;
+    margin: 20px;
+    border-radius: 3%;
+    border-left: 8px solid #f0b429;
+
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 40%;
 }
 
 .project {
-    background-color: white;
-    margin: 20px;
+    grid-row: 1;
+    grid-column: 1;
+    gap: 20px;
+    padding: 25px;
+    color: grey;
+}
+
+.project-title {
+    color: black;
+    font-size: 1.3rem;
+    margin-left: -1px;
+}
+
+.project-actions {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.project-actions > .navbar-icon {
+    margin: 0 13px 10px;
+    width: 1.5rem;
 }
 
 .announce\+trends {
-    background-color: orange;
+    background-color: #f0b429;
     grid-row-start: 1;
     grid-row-end: 4;
     grid-column-start: 4;
